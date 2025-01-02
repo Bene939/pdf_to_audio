@@ -7,5 +7,4 @@ def pdf_to_text(pdf_path):
 
     # Print or save the extracted text
     print(full_text)
-
-pdf_to_text("test.pdf")
+    return full_text
